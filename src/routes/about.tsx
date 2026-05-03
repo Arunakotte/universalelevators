@@ -91,7 +91,7 @@ function AboutPage() {
       <section className="px-6 pb-24">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-6 rounded-3xl bg-gradient-hero p-10 text-surface-foreground shadow-elevated md:flex-row md:p-14">
           <h3 className="font-display text-2xl font-bold md:text-3xl">Let's build something that lifts.</h3>
-          <Link to="/contact" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-surface transition-smooth hover:scale-[1.02]">
+          <Link to="/contact" className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-3.5 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5">
             Get in touch <ArrowRight className="h-4 w-4" />
           </Link>
         </div>

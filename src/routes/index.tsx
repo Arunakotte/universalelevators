@@ -221,7 +221,7 @@ function HomePage() {
             <a href={WA.quote} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-[1.04]" style={{ backgroundColor: "#25D366" }}>
               <MessageCircle className="h-4 w-4" /> Get Free Quote
             </a>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-surface">
+            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5">
               <Phone className="h-4 w-4" /> {PHONE_DISPLAY}
             </a>
           </div>
@@ -356,7 +356,7 @@ function HomePage() {
               <a href={WA.general} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-glow" style={{ backgroundColor: "#25D366" }}>
                 <MessageCircle className="h-4 w-4" /> WhatsApp Now
               </a>
-              <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-surface">
+              <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5">
                 <Phone className="h-4 w-4" /> Call {PHONE_DISPLAY}
               </a>
             </div>

@@ -74,7 +74,7 @@ function ContactPage() {
               <MessageCircle className="h-4 w-4" /> WhatsApp for a Free Quote
               <ArrowRight className="h-4 w-4" />
             </a>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-4 text-sm font-semibold text-surface transition-smooth hover:scale-[1.04]">
+            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-4 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5 hover:scale-[1.04]">
               <Phone className="h-4 w-4" /> Call {PHONE_DISPLAY}
             </a>
           </div>
