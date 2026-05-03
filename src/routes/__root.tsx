@@ -2,6 +2,7 @@ import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/r
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { FloatingContact } from "@/components/FloatingContact";
+import { ElevatorScrollIndicator } from "@/components/ElevatorScrollIndicator";
 
 import appCss from "../styles.css?url";
 
@@ -76,6 +77,7 @@ function RootComponent() {
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
+      <ElevatorScrollIndicator />
       <main className="flex-1">
         <Outlet />
       </main>
