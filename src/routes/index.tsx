@@ -182,8 +182,8 @@ function HomePage() {
         </div>
       </section>
 
-      {/* WHY US */}
-      <section id="why" className="py-20">
+      {/* ABOUT */}
+      <section id="about" className="py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 max-w-2xl">
             <span className="text-xs font-semibold uppercase tracking-wider text-primary">Why choose us</span>
@@ -297,7 +297,7 @@ function HomePage() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section id="reviews" className="py-20">
+      <section id="testimonials" className="py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div className="max-w-2xl">
