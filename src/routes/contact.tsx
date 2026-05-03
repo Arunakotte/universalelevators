@@ -68,13 +68,13 @@ function ContactPage() {
               href={WA.quote}
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center gap-2 rounded-full px-7 py-4 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-[1.04]"
+              className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-105"
               style={{ backgroundColor: "#25D366" }}
             >
               <MessageCircle className="h-4 w-4" /> WhatsApp for a Free Quote
               <ArrowRight className="h-4 w-4" />
             </a>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-4 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5 hover:scale-[1.04]">
+            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-3.5 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5 hover:scale-105">
               <Phone className="h-4 w-4" /> Call {PHONE_DISPLAY}
             </a>
           </div>
@@ -124,7 +124,7 @@ function ContactPage() {
             <h3 className="font-display text-2xl font-bold md:text-3xl">Book a free site visit</h3>
             <p className="mt-2 text-white/90">Anywhere in Bangalore — no obligation, no pushy sales.</p>
           </div>
-          <a href={WA.siteVisit} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-4 text-sm font-semibold text-[#128C4A] transition-smooth hover:scale-[1.04]">
+          <a href={WA.siteVisit} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-[#128C4A] transition-smooth hover:scale-105">
             <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
           </a>
         </div>

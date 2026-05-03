@@ -51,14 +51,14 @@ function HomePage() {
             <div className="reveal mt-8 flex flex-wrap gap-3" style={{ ["--d" as never]: "260ms" }}>
               <a
                 href="#services"
-                className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-[1.05]"
+                className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-105"
               >
                 Our Products
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-4 text-sm font-semibold text-primary transition-smooth hover:scale-[1.05] hover:bg-primary/5"
+                className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-3.5 text-sm font-semibold text-primary transition-smooth hover:scale-105 hover:bg-primary/5"
               >
                 <Phone className="h-4 w-4" /> Contact Us
               </a>
@@ -218,10 +218,10 @@ function HomePage() {
             <p className="mt-1 text-surface-foreground/85">Message us on WhatsApp — we usually reply within the hour.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
-            <a href={WA.quote} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-[1.04]" style={{ backgroundColor: "#25D366" }}>
+            <a href={WA.quote} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-105" style={{ backgroundColor: "#25D366" }}>
               <MessageCircle className="h-4 w-4" /> Get Free Quote
             </a>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5">
+            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-3.5 text-sm font-semibold text-primary transition-smooth hover:scale-105 hover:bg-primary/5">
               <Phone className="h-4 w-4" /> {PHONE_DISPLAY}
             </a>
           </div>
@@ -337,7 +337,7 @@ function HomePage() {
             <h3 className="font-display text-2xl font-bold md:text-3xl">Book a Free Site Visit</h3>
             <p className="mt-2 text-white/90">Tell us your requirement on WhatsApp — we'll arrange a visit at a time that suits you.</p>
           </div>
-          <a href={WA.siteVisit} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-4 text-sm font-semibold text-[#128C4A] transition-smooth hover:scale-[1.04]">
+          <a href={WA.siteVisit} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-[#128C4A] transition-smooth hover:scale-105">
             <MessageCircle className="h-4 w-4" /> Chat on WhatsApp <ArrowRight className="h-4 w-4" />
           </a>
         </div>
@@ -353,10 +353,10 @@ function HomePage() {
               Contact us directly on WhatsApp for the fastest response — or call our office during business hours.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href={WA.general} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-glow" style={{ backgroundColor: "#25D366" }}>
+              <a href={WA.general} target="_blank" rel="noopener" className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-white shadow-glow transition-smooth hover:scale-105" style={{ backgroundColor: "#25D366" }}>
                 <MessageCircle className="h-4 w-4" /> WhatsApp Now
               </a>
-              <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary transition-smooth hover:bg-primary/5">
+              <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 rounded-full border border-primary px-7 py-3.5 text-sm font-semibold text-primary transition-smooth hover:scale-105 hover:bg-primary/5">
                 <Phone className="h-4 w-4" /> Call {PHONE_DISPLAY}
               </a>
             </div>
